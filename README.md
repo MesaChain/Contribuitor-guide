@@ -1,33 +1,46 @@
 # 🌟 Contributing Guide | MesaChain
 
-We’re excited you’re interested in contributing! Please follow these steps to ensure a smooth and efficient collaboration process.
+We're excited you're interested in contributing to the MesaChain project! 🚀 This guide will walk you through the process of becoming a valuable contributor.
 
-🎉 Thank you for being interested in contributing to the MesaChain project! 🎉
+## Welcome Contributors! 🤝
 
-Feel welcome and read the following sections in order to know how to ask questions and how to work on something.
+Thank you for your interest in helping MesaChain grow. We appreciate volunteer developers like you who help bring this project to life. 👏
 
-Please make sure you are welcoming and friendly in all of our spaces.
+## Contribution Steps
 
-We're really glad you're reading this, because we need volunteer developers to help this project come to fruition. 👏
+### 1️⃣ Apply for an Issue 🕵️
 
-## 👨🏻‍💻 Issues
+- Browse through open issues in the repository.
+- Select an issue that matches your skills and interests.
+- Comment on the issue with a **detailed application** that includes:
+  - A brief introduction about yourself
+  - A clear, concise plan to solve the issue (6-8 lines max)
+  - Your estimated time to complete the task (ETA)
 
-The best way to contribute to our projects is to apply to the issues.
+**Important Application Guidelines:** 
 
-PRs are not allowed; all PRs must originate from an assigned issue.
+⚠️ Avoid Generic Comments:
+- 🚫 "Can I help on this one?"
+- 🚫 "I'd love to contribute!"
+- 🚫 "Checkout my profile!"
+- 🚫 "Can I tackle this?"
 
+**Note:** Direct Pull Requests are not allowed. All PRs must originate from an assigned issue.
 
----
+### 2️⃣ Contact Maintainer 📱
 
-## 1️⃣ Fork the Repository
+- Once assigned to an issue, contact the project maintainer via Telegram.
+- Provide a brief overview of your planned approach to solving the issue.
 
-- Click the **Fork** button in the top-right corner to create a copy of the repository under your account.
+### 3️⃣ Fork the Repository 🍴
 
----
+- Navigate to the project's GitHub page.
+- Click the **Fork** button in the top-right corner.
+- Create a copy of the repository under your GitHub account.
 
-## 2️⃣ Clone the Fork
+### 4️⃣ Clone Your Fork 💻
 
-- Clone the forked repository to your local machine by running the following command:
+- Clone the forked repository to your local machine:
 
    ```bash
    git clone https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git
@@ -35,76 +48,66 @@ PRs are not allowed; all PRs must originate from an assigned issue.
 
 - Replace `YOUR_USERNAME` and `REPOSITORY_NAME` with your GitHub username and the repository name.
 
----
+### 5️⃣ Create a Branch 🌿
 
-## 3️⃣ Create a new branch or use the main branch
-
-- Create a branch name based on the type of change (e.g., `feat/name-related-issue`, `docs/name-related-issue`).
-
+- Create a descriptive branch name based on the type of change:
    ```bash
    git checkout -b branch-name
    ```
 
-   > Example: `docs/update-readme` or `fix/bottom-bug`.
+- Branch naming convention:
+  - `feat/name-related-issue`
+  - `docs/name-related-issue`
+  - `fix/name-related-issue`
 
----
+### 6️⃣ Make Atomic Commits 🧩
 
-## 4️⃣ Make Changes and Write Atomic Commits
+- Follow atomic commit principles:
+  - Each commit addresses a single, logical change
+  - Avoid bundling unrelated changes
+  - Write clear, descriptive commit messages
 
-- Make changes in your local repository
-- Follow **atomic commit principles**:
+Commit message format:
+```bash
+git add path/file_name
+git commit -m "type: description"
+```
 
-   - Each commit should address a single, logical change.
-   - Avoid bundling unrelated changes in a single commit. In case you want to add additional items, please ask the mainteiners first.
-   - Write clear and descriptive commit messages using the format:
+Commit Types:
+- `feat:` New feature
+- `fix:` Bug fix
+- `docs:` Documentation changes
+- `style:` Formatting changes
+- `refactor:` Code restructuring
+- `perf:` Performance improvements
+- `test:` Test-related changes
+- `build:` Build system updates
+- `ci:` CI configuration changes
+- `chore:` Maintenance tasks
 
-   ```bash
-   git add path/file_name
-   git commit -m "type: description"
-   ```
+### 7️⃣ Test Locally 🔍
 
-   > Types and when to use them:
+- Ensure the project runs correctly after your changes
+- Follow project-specific setup instructions
+- Perform thorough local testing
 
-   - `feat:` A new feature
-   - `fix:` A bug fix
-   - `docs:` Documentation changes
-   - `style:` Changes that do not affect the meaning of the code (formatting, etc.)
-   - `refactor:` Code changes that neither fix a bug nor add a feature
-   - `perf:` Changes that improve performance
-   - `test:` Adding missing tests or correcting existing tests
-   - `build:` Changes that affect the build system or external dependencies
-   - `ci:` Changes to CI configuration files and scripts
-   - `chore:` Maintenance changes that do not fall into any of the other categories
-
----
-
-## 5️⃣ Run the Project Locally
-
-- Ensure the project runs correctly after making your changes.
-- Follow the project-specific setup instructions to test your changes locally.
-
----
-
-## 6️⃣ Push Your Changes
+### 8️⃣ Push Changes 🚀
 
 - Push your changes to your forked repository:
-
    ```bash
    git push origin your-branch-name
    ```
-   > - Replace `your-branch-name` with the name of your branch.
----
 
-## 7️⃣ Create a Pull Request (PR)
+### 9️⃣ Create a Pull Request 📤
 
-- Navigate to your forked repository on GitHub.
-- Click **New Pull Request** and select your branch to merge into the `main` of the original repository.
+- Navigate to your forked repository on GitHub
+- Click **New Pull Request**
+- Select your branch to merge into the `main` branch of the original repository
 
----
+## Additional Guidelines 📋
 
-## 📝 Additional Notes
+- Adhere to the repository's coding standards
+- Be open to maintainer feedback
+- Communicate professionally and courteously
 
-- Make sure your code adheres to the repository’s coding standards.
-- Respect the project maintainers' feedback and requested changes.
-
-Thank you for contributing! 🤝🏼
+**Thank you for contributing to MesaChain! Together, we can make a difference.**
